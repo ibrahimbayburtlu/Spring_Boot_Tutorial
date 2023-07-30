@@ -13,13 +13,9 @@ public class DemoController {
 
     private Coach myCoach;
 
-    private Coach anotherCoach;
-
     @Autowired
-    public DemoController(@Qualifier("cricketCoach") Coach theCoach,
-                          @Qualifier("cricketCoach") Coach theAnotherCoach){
+    public DemoController(@Qualifier("cricketCoach") Coach theCoach){
         myCoach = theCoach;
-        anotherCoach = theAnotherCoach;
     }
 
     @GetMapping("/dailyworkout")
@@ -27,8 +23,4 @@ public class DemoController {
         return myCoach.getDailyWorkout();
     }
 
-    @GetMapping("/check")
-    public String getCheck(){
-        return "Comparing beans: myCoach == anotherCoach: " + (myCoach == anotherCoach);
-    }
 }
