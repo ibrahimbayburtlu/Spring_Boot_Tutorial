@@ -22,5 +22,4 @@ public class DemoController {
     public String getDailyWorkOut(){
         return myCoach.getDailyWorkout();
     }
-
 }
