@@ -13,5 +13,7 @@ public interface EmployeeService {
 	void save(Employee theEmployee);
 	
 	void deleteById(int theId);
+
+	List<Employee> findAllByOrderByLastNameAsc();
 	
 }
