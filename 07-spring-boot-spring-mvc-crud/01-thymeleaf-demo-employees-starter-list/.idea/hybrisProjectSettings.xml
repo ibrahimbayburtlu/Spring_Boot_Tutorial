@@ -3,6 +3,11 @@
   <component name="HybrisProjectSettings">
     <option name="moduleSettings">
       <map>
+        <entry key="01-thymeleaf-demo-employees-starter-list">
+          <value>
+            <ModuleSettings />
+          </value>
+        </entry>
         <entry key="thymeleafdemo">
           <value>
             <ModuleSettings />
