@@ -7,10 +7,10 @@
     <list default="true" id="4cfd2528-3918-481d-95b4-5b04a1176f8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springboot/thymeleafdemo/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springboot/thymeleafdemo/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springboot/thymeleafdemo/dao/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springboot/thymeleafdemo/dao/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/list-employees.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employees/list-employees.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/springboot/thymeleafdemo/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luv2code/springboot/thymeleafdemo/controller/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/list-employees.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employees/employee-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employees/employee-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employees/list-employees.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employees/list-employees.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/employees/employee-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/employees/employee-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/employees/list-employees.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/employees/list-employees.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "34c82aa55773ca319a8d4f13652207b4",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -89,7 +90,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691765239897</updated>
-      <workItem from="1691765240810" duration="3466000" />
+      <workItem from="1691765240810" duration="3942000" />
+      <workItem from="1691783400676" duration="1035000" />
     </task>
     <servers />
   </component>
