@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:sec="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>İbrahim Bayburtlu Home Page</title>
@@ -7,8 +7,19 @@
 <body>
     <h2>İbrahim Bayburtlu Company Home Page</h2>
     <hr>
+    <p>
     Welcome to the İbrahim Bayburtlu company home page!
+    </p>
 
+    <hr>
+    <p>
+        User : <span sec:authentication="principal.username"></span>
+        <br><br>
+        Role(s) : <span sec:authentication="principal.authorities"></span>
+    </p>
+
+    <hr>
+    <!-- Add a logout button -->
     <form action="#" th:action="@{/logout}" method="POST">
         <input type="submit" value="Logout">
     </form>
