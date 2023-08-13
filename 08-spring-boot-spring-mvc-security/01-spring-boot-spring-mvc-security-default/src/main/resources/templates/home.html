@@ -21,15 +21,22 @@
     <hr>
     <!-- Add a link to point to / leaders ... this is for the managers -->
 
+    <div sec:authorize="hasRole('MANAGER')">
     <p>
-        <a th:href="@{/leaders}">Leaders Meeting</a>
+        <a th:href="@{/leaders}">
+        Leaders Meeting
+        </a>
         (Only for Manager peeps)
     </p>
+    </div>
+    <div sec:authorize="hasRole('ADMIN')">
     <p>
-        <a th:href="@{/systems}">IT Systems Meeting</a>
+        <a th:href="@{/systems}">
+            IT Systems Meeting
+        </a>
         (Only for Admin peeps)
     </p>
-
+    </div>
     <hr>
     <!-- Add a logout button -->
     <form action="#" th:action="@{/logout}" method="POST">
