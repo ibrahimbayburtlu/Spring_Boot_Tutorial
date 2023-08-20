@@ -13,7 +13,7 @@ public class MyDemoLoggingAspect {
 
     // let's start with a @Before Advice
 
-    @Before("execution(public void addAccount())")
+    @Before("execution(public void com.ibrahimbayburtlu.aopdemo.dao.AccountDAO.addAccount())")
     //@Before("execution(public void updateAccount())")
     public void beforeAddAccountAdvice(){
 
